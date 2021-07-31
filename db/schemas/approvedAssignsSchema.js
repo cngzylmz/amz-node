@@ -4,7 +4,7 @@ const approvedAssignsSchema = new Schema ({
         type: String,
         required: [true, 'Property id is required'],
     },
-    price:Number,
+    price:String,
     quantity:Number,
     amazonComPrice:Number,
     amazonComShippingPrice:Number,

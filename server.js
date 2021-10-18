@@ -6,7 +6,9 @@ require('dotenv').config()
 
 const port = process.env.SERVER_PORT || 2000;
 
-app.listen(port)
+app.listen(port,()=>{
+    console.log(`Connected port: ${port}`);
+})
 app.use(bodyParser.urlencoded({extended: true}))
 app.use(bodyParser.json())
 

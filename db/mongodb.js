@@ -19,4 +19,4 @@ const db = () => {
 
 mongoose.Promise = global.Promise
 
-module.exports = db
+module.exports =  db
